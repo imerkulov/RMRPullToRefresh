@@ -37,10 +37,6 @@ public class RMRPullToRefresh: NSObject {
         self.сontroller = controller
     }
     
-    deinit {
-    
-    }
-    
     public func remove() {
         сontroller?.unsubscribeFromScrollViewEvents()
         сontroller?.containerView.removeFromSuperview()
