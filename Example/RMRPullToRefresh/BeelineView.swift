@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RMRPullToRefresh
 
 enum AnimationStage: Int {
     case Stage1 // big medium small

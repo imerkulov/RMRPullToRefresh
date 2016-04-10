@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RMRPullToRefresh
 
 public enum ExampleType: Int {
     case PerekrestokTop

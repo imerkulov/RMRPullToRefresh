@@ -12,19 +12,19 @@ public class RMRPullToRefresh: NSObject {
 
     private var сontroller: RMRPullToRefreshController?
     
-    var height : CGFloat = RMRPullToRefreshConstants.DefaultHeight {
+    public var height : CGFloat = RMRPullToRefreshConstants.DefaultHeight {
         didSet {
             сontroller?.configureHeight(height)
         }
     }
     
-    var backgroundColor : UIColor = RMRPullToRefreshConstants.DefaultBackgroundColor {
+    public var backgroundColor : UIColor = RMRPullToRefreshConstants.DefaultBackgroundColor {
         didSet {
             сontroller?.configureBackgroundColor(backgroundColor)
         }
     }
     
-    init(scrollView: UIScrollView, position:RMRPullToRefreshPosition, actionHandler: (RMRPullToRefresh?) -> Void) {
+    public init(scrollView: UIScrollView, position:RMRPullToRefreshPosition, actionHandler: (RMRPullToRefresh?) -> Void) {
         super.init()
         
         let controller = RMRPullToRefreshController(scrollView: scrollView,
