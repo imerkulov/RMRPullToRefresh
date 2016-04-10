@@ -9,17 +9,9 @@
 /* Begin PBXBuildFile section */
 		8921D4F51CA425B4000D28E3 /* PerekrestokView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921D4F41CA425B4000D28E3 /* PerekrestokView.swift */; };
 		8921D4F71CA425C0000D28E3 /* PerekrestokView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8921D4F61CA425C0000D28E3 /* PerekrestokView.xib */; };
-		8952BE321CBABBD700D94689 /* RMRPullToRefreshCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE281CBABBD700D94689 /* RMRPullToRefreshCircleView.swift */; };
-		8952BE331CBABBD700D94689 /* RMRPullToRefreshDefaultDraggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE291CBABBD700D94689 /* RMRPullToRefreshDefaultDraggingView.swift */; };
-		8952BE341CBABBD700D94689 /* RMRPullToRefreshDefaultLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE2A1CBABBD700D94689 /* RMRPullToRefreshDefaultLoadingView.swift */; };
-		8952BE351CBABBD700D94689 /* RMRPullToRefreshViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE2B1CBABBD700D94689 /* RMRPullToRefreshViewFactory.swift */; };
-		8952BE361CBABBD700D94689 /* RMRPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE2C1CBABBD700D94689 /* RMRPullToRefresh.swift */; };
-		8952BE371CBABBD700D94689 /* RMRPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE2D1CBABBD700D94689 /* RMRPullToRefreshConstants.swift */; };
-		8952BE381CBABBD700D94689 /* RMRPullToRefreshContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE2E1CBABBD700D94689 /* RMRPullToRefreshContainerView.swift */; };
-		8952BE391CBABBD700D94689 /* RMRPullToRefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE2F1CBABBD700D94689 /* RMRPullToRefreshController.swift */; };
-		8952BE3A1CBABBD700D94689 /* RMRPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE301CBABBD700D94689 /* RMRPullToRefreshView.swift */; };
-		8952BE3B1CBABBD700D94689 /* RMRPullToRefreshViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE311CBABBD700D94689 /* RMRPullToRefreshViewProtocol.swift */; };
 		8952BE3E1CBACA1D00D94689 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8952BE3D1CBACA1D00D94689 /* TableViewController.swift */; };
+		89B014751CBAE22F002AB1B7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B014741CBAE22F002AB1B7 /* Pods.framework */; };
+		89B014771CBAE3D5002AB1B7 /* RMRPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B014761CBAE3D5002AB1B7 /* RMRPullToRefresh.framework */; };
 		89B06BF01CBA8A4900485A08 /* BeelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B06BEF1CBA8A4900485A08 /* BeelineView.swift */; };
 		89B06BF21CBA8B0700485A08 /* BeelineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B06BF11CBA8B0700485A08 /* BeelineView.xib */; };
 		89CB12381C9DA07B00048E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB12371C9DA07B00048E46 /* AppDelegate.swift */; };
@@ -30,33 +22,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3985B576D74DF786AAD637F0 /* Pods_RMRPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMRPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		766D53F6605D8961328E54A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8921D4F41CA425B4000D28E3 /* PerekrestokView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerekrestokView.swift; sourceTree = "<group>"; };
 		8921D4F61CA425C0000D28E3 /* PerekrestokView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerekrestokView.xib; sourceTree = "<group>"; };
-		8952BE221CBAB1F100D94689 /* RMRPullToRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMRPullToRefresh.framework; path = "../../Library/Developer/Xcode/DerivedData/RMRPullToRefresh-faloudcxjjqllffnwwstgjierxbw/Build/Products/Debug-iphonesimulator/RMRPullToRefresh.framework"; sourceTree = "<group>"; };
-		8952BE241CBAB8EB00D94689 /* Pods_RMRPullToRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_RMRPullToRefresh.framework; path = "Pods/../build/Debug-iphoneos/Pods_RMRPullToRefresh.framework"; sourceTree = "<group>"; };
-		8952BE281CBABBD700D94689 /* RMRPullToRefreshCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefreshCircleView.swift; sourceTree = "<group>"; };
-		8952BE291CBABBD700D94689 /* RMRPullToRefreshDefaultDraggingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefreshDefaultDraggingView.swift; sourceTree = "<group>"; };
-		8952BE2A1CBABBD700D94689 /* RMRPullToRefreshDefaultLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefreshDefaultLoadingView.swift; sourceTree = "<group>"; };
-		8952BE2B1CBABBD700D94689 /* RMRPullToRefreshViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefreshViewFactory.swift; sourceTree = "<group>"; };
-		8952BE2C1CBABBD700D94689 /* RMRPullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefresh.swift; sourceTree = "<group>"; };
-		8952BE2D1CBABBD700D94689 /* RMRPullToRefreshConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefreshConstants.swift; sourceTree = "<group>"; };
-		8952BE2E1CBABBD700D94689 /* RMRPullToRefreshContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefreshContainerView.swift; sourceTree = "<group>"; };
-		8952BE2F1CBABBD700D94689 /* RMRPullToRefreshController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefreshController.swift; sourceTree = "<group>"; };
-		8952BE301CBABBD700D94689 /* RMRPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefreshView.swift; sourceTree = "<group>"; };
-		8952BE311CBABBD700D94689 /* RMRPullToRefreshViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRPullToRefreshViewProtocol.swift; sourceTree = "<group>"; };
 		8952BE3D1CBACA1D00D94689 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		89B014741CBAE22F002AB1B7 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "../../../../Library/Developer/Xcode/DerivedData/RMRPullToRefresh-fwnpioedcaituoahusazwcgryphj/Build/Products/Debug-iphonesimulator/Pods.framework"; sourceTree = "<group>"; };
+		89B014761CBAE3D5002AB1B7 /* RMRPullToRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMRPullToRefresh.framework; path = "../../../../Library/Developer/Xcode/DerivedData/RMRPullToRefresh-fwnpioedcaituoahusazwcgryphj/Build/Products/Debug-iphonesimulator/RMRPullToRefresh.framework"; sourceTree = "<group>"; };
 		89B06BEF1CBA8A4900485A08 /* BeelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeelineView.swift; sourceTree = "<group>"; };
 		89B06BF11CBA8B0700485A08 /* BeelineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeelineView.xib; sourceTree = "<group>"; };
-		89CB12341C9DA07B00048E46 /* RMRPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMRPullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CB12341C9DA07B00048E46 /* RMRPullToRefreshExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMRPullToRefreshExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CB12371C9DA07B00048E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89CB12391C9DA07B00048E46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89CB123C1C9DA07B00048E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89CB123E1C9DA07B00048E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89CB12411C9DA07B00048E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89CB12431C9DA07B00048E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C90A45704FFF83B62B138805 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48C26E126E3942BBDFD40CF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B014771CBAE3D5002AB1B7 /* RMRPullToRefresh.framework in Frameworks */,
+				89B014751CBAE22F002AB1B7 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,32 +60,6 @@
 				D48C26E126E3942BBDFD40CF /* Pods.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		8952BE261CBABBD600D94689 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8952BE271CBABBD700D94689 /* Default */,
-				8952BE2C1CBABBD700D94689 /* RMRPullToRefresh.swift */,
-				8952BE2D1CBABBD700D94689 /* RMRPullToRefreshConstants.swift */,
-				8952BE2E1CBABBD700D94689 /* RMRPullToRefreshContainerView.swift */,
-				8952BE2F1CBABBD700D94689 /* RMRPullToRefreshController.swift */,
-				8952BE301CBABBD700D94689 /* RMRPullToRefreshView.swift */,
-				8952BE311CBABBD700D94689 /* RMRPullToRefreshViewProtocol.swift */,
-			);
-			name = Classes;
-			path = ../../Classes;
-			sourceTree = "<group>";
-		};
-		8952BE271CBABBD700D94689 /* Default */ = {
-			isa = PBXGroup;
-			children = (
-				8952BE281CBABBD700D94689 /* RMRPullToRefreshCircleView.swift */,
-				8952BE291CBABBD700D94689 /* RMRPullToRefreshDefaultDraggingView.swift */,
-				8952BE2A1CBABBD700D94689 /* RMRPullToRefreshDefaultLoadingView.swift */,
-				8952BE2B1CBABBD700D94689 /* RMRPullToRefreshViewFactory.swift */,
-			);
-			path = Default;
 			sourceTree = "<group>";
 		};
 		8952BE3C1CBAC64800D94689 /* Views */ = {
@@ -120,7 +76,7 @@
 		89CB122B1C9DA07B00048E46 = {
 			isa = PBXGroup;
 			children = (
-				89CB12361C9DA07B00048E46 /* RMRPullToRefresh */,
+				89CB12361C9DA07B00048E46 /* RMRPullToRefreshExample */,
 				89CB12351C9DA07B00048E46 /* Products */,
 				23AE0A3F7B76C576CCD778D3 /* Pods */,
 				E22D98D3A06A61AA44D86794 /* Frameworks */,
@@ -130,15 +86,14 @@
 		89CB12351C9DA07B00048E46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89CB12341C9DA07B00048E46 /* RMRPullToRefresh.app */,
+				89CB12341C9DA07B00048E46 /* RMRPullToRefreshExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89CB12361C9DA07B00048E46 /* RMRPullToRefresh */ = {
+		89CB12361C9DA07B00048E46 /* RMRPullToRefreshExample */ = {
 			isa = PBXGroup;
 			children = (
-				8952BE261CBABBD600D94689 /* Classes */,
 				8952BE3C1CBAC64800D94689 /* Views */,
 				89CB12371C9DA07B00048E46 /* AppDelegate.swift */,
 				8952BE3D1CBACA1D00D94689 /* TableViewController.swift */,
@@ -148,16 +103,15 @@
 				89CB123E1C9DA07B00048E46 /* Assets.xcassets */,
 				89CB12431C9DA07B00048E46 /* Info.plist */,
 			);
+			name = RMRPullToRefreshExample;
 			path = RMRPullToRefresh;
 			sourceTree = "<group>";
 		};
 		E22D98D3A06A61AA44D86794 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8952BE241CBAB8EB00D94689 /* Pods_RMRPullToRefresh.framework */,
-				8952BE221CBAB1F100D94689 /* RMRPullToRefresh.framework */,
-				C90A45704FFF83B62B138805 /* Pods.framework */,
-				3985B576D74DF786AAD637F0 /* Pods_RMRPullToRefresh.framework */,
+				89B014761CBAE3D5002AB1B7 /* RMRPullToRefresh.framework */,
+				89B014741CBAE22F002AB1B7 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,21 +119,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89CB12331C9DA07B00048E46 /* RMRPullToRefresh */ = {
+		89CB12331C9DA07B00048E46 /* RMRPullToRefreshExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89CB12461C9DA07B00048E46 /* Build configuration list for PBXNativeTarget "RMRPullToRefresh" */;
+			buildConfigurationList = 89CB12461C9DA07B00048E46 /* Build configuration list for PBXNativeTarget "RMRPullToRefreshExample" */;
 			buildPhases = (
+				00D4D85E4DF2FF039A017773 /* Check Pods Manifest.lock */,
 				89CB12301C9DA07B00048E46 /* Sources */,
 				89CB12311C9DA07B00048E46 /* Frameworks */,
 				89CB12321C9DA07B00048E46 /* Resources */,
+				2BE863C51DEA329C1234F1B0 /* Embed Pods Frameworks */,
+				C137BE069515EFF1A69455DF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RMRPullToRefresh;
+			name = RMRPullToRefreshExample;
 			productName = RMRPullToRefresh;
-			productReference = 89CB12341C9DA07B00048E46 /* RMRPullToRefresh.app */;
+			productReference = 89CB12341C9DA07B00048E46 /* RMRPullToRefreshExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89CB122F1C9DA07B00048E46 /* Build configuration list for PBXProject "RMRPullToRefresh" */;
+			buildConfigurationList = 89CB122F1C9DA07B00048E46 /* Build configuration list for PBXProject "RMRPullToRefreshExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -210,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89CB12331C9DA07B00048E46 /* RMRPullToRefresh */,
+				89CB12331C9DA07B00048E46 /* RMRPullToRefreshExample */,
 			);
 		};
 /* End PBXProject section */
@@ -230,26 +187,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00D4D85E4DF2FF039A017773 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BE863C51DEA329C1234F1B0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C137BE069515EFF1A69455DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89CB12301C9DA07B00048E46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				89CB123A1C9DA07B00048E46 /* ViewController.swift in Sources */,
-				8952BE371CBABBD700D94689 /* RMRPullToRefreshConstants.swift in Sources */,
-				8952BE391CBABBD700D94689 /* RMRPullToRefreshController.swift in Sources */,
-				8952BE381CBABBD700D94689 /* RMRPullToRefreshContainerView.swift in Sources */,
 				8921D4F51CA425B4000D28E3 /* PerekrestokView.swift in Sources */,
-				8952BE341CBABBD700D94689 /* RMRPullToRefreshDefaultLoadingView.swift in Sources */,
-				8952BE321CBABBD700D94689 /* RMRPullToRefreshCircleView.swift in Sources */,
-				8952BE361CBABBD700D94689 /* RMRPullToRefresh.swift in Sources */,
 				89B06BF01CBA8A4900485A08 /* BeelineView.swift in Sources */,
-				8952BE351CBABBD700D94689 /* RMRPullToRefreshViewFactory.swift in Sources */,
-				8952BE3B1CBABBD700D94689 /* RMRPullToRefreshViewProtocol.swift in Sources */,
-				8952BE3A1CBABBD700D94689 /* RMRPullToRefreshView.swift in Sources */,
 				89CB12381C9DA07B00048E46 /* AppDelegate.swift in Sources */,
 				8952BE3E1CBACA1D00D94689 /* TableViewController.swift in Sources */,
-				8952BE331CBABBD700D94689 /* RMRPullToRefreshDefaultDraggingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,14 +356,11 @@
 			baseConfigurationReference = 766D53F6605D8961328E54A1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RMRPullToRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redmadrobot.RMRPullToRefresh;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RMRPullToRefreshExample;
 			};
 			name = Debug;
 		};
@@ -377,21 +369,18 @@
 			baseConfigurationReference = D48C26E126E3942BBDFD40CF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RMRPullToRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redmadrobot.RMRPullToRefresh;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RMRPullToRefreshExample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89CB122F1C9DA07B00048E46 /* Build configuration list for PBXProject "RMRPullToRefresh" */ = {
+		89CB122F1C9DA07B00048E46 /* Build configuration list for PBXProject "RMRPullToRefreshExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89CB12441C9DA07B00048E46 /* Debug */,
@@ -400,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89CB12461C9DA07B00048E46 /* Build configuration list for PBXNativeTarget "RMRPullToRefresh" */ = {
+		89CB12461C9DA07B00048E46 /* Build configuration list for PBXNativeTarget "RMRPullToRefreshExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89CB12471C9DA07B00048E46 /* Debug */,

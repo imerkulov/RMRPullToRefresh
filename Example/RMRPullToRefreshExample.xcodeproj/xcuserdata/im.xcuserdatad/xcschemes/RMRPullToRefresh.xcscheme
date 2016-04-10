@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "89CB12331C9DA07B00048E46"
-               BuildableName = "RMRPullToRefresh.app"
-               BlueprintName = "RMRPullToRefresh"
-               ReferencedContainer = "container:RMRPullToRefresh.xcodeproj">
+               BuildableName = "RMRPullToRefreshExample.app"
+               BlueprintName = "RMRPullToRefreshExample"
+               ReferencedContainer = "container:RMRPullToRefreshExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89CB12331C9DA07B00048E46"
-            BuildableName = "RMRPullToRefresh.app"
-            BlueprintName = "RMRPullToRefresh"
-            ReferencedContainer = "container:RMRPullToRefresh.xcodeproj">
+            BuildableName = "RMRPullToRefreshExample.app"
+            BlueprintName = "RMRPullToRefreshExample"
+            ReferencedContainer = "container:RMRPullToRefreshExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89CB12331C9DA07B00048E46"
-            BuildableName = "RMRPullToRefresh.app"
-            BlueprintName = "RMRPullToRefresh"
-            ReferencedContainer = "container:RMRPullToRefresh.xcodeproj">
+            BuildableName = "RMRPullToRefreshExample.app"
+            BlueprintName = "RMRPullToRefreshExample"
+            ReferencedContainer = "container:RMRPullToRefreshExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89CB12331C9DA07B00048E46"
-            BuildableName = "RMRPullToRefresh.app"
-            BlueprintName = "RMRPullToRefresh"
-            ReferencedContainer = "container:RMRPullToRefresh.xcodeproj">
+            BuildableName = "RMRPullToRefreshExample.app"
+            BlueprintName = "RMRPullToRefreshExample"
+            ReferencedContainer = "container:RMRPullToRefreshExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

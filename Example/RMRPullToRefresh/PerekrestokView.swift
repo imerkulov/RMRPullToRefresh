@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RMRPullToRefresh
 
 class PerekrestokView: RMRPullToRefreshView {
     
