@@ -24,14 +24,12 @@ public class RMRPullToRefresh: NSObject {
         }
     }
     
-    public init(scrollView: UIScrollView, position:RMRPullToRefreshPosition, actionHandler: (RMRPullToRefresh?) -> Void) {
+    public init(scrollView: UIScrollView, position:RMRPullToRefreshPosition, actionHandler: () -> Void) {
         super.init()
         
         let controller = RMRPullToRefreshController(scrollView: scrollView,
                                                     position: position,
-                                                    actionHandler: {[weak self] () in
-            actionHandler(self)
-        })
+                                                    actionHandler: actionHandler)
         
         scrollView.addSubview(controller.containerView)
         self.сontroller = controller
