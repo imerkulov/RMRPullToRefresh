@@ -35,39 +35,37 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         configure()
         loadData()
         
-        pullToRefresh = configurePullToRefresh(examplePosition(),
-                                               pullToRefreshView: exampleView(),
-                                               backgroundColor: exampleBackgroundColor())
+        configurePullToRefresh()
     }
     
     // MARK: - Pull to Refresh
     
-    func configurePullToRefresh(position: RMRPullToRefreshPosition, pullToRefreshView: RMRPullToRefreshView, backgroundColor: UIColor) -> RMRPullToRefresh {
+    func configurePullToRefresh() {
         
-        let pullToRefresh = RMRPullToRefresh(scrollView: tableView, position: position) { [weak self](this) in
+        pullToRefresh = RMRPullToRefresh(scrollView: tableView, position: examplePosition()) { [weak self] _ in
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(5.0 * Double(NSEC_PER_SEC))), dispatch_get_main_queue(), {
                 self?.loadMore()
-                this?.stopLoading()
+                self?.pullToRefresh?.stopLoading()
             })
         }
         
-        pullToRefresh.configureView(pullToRefreshView, state: .Dragging, result: .Success)
-        pullToRefresh.configureView(pullToRefreshView, state: .Loading, result: .Success)
+        if let pullToRefreshView = exampleView() {
+            pullToRefresh?.configureView(pullToRefreshView, state: .Dragging, result: .Success)
+            pullToRefresh?.configureView(pullToRefreshView, state: .Loading, result: .Success)
+        }
         
-        pullToRefresh.height = 70.0
+        pullToRefresh?.height = 70.0
         
-        pullToRefresh.backgroundColor = backgroundColor
-        
-        return pullToRefresh
+        pullToRefresh?.backgroundColor = exampleBackgroundColor()
     }
     
     // MARK: - Build example values
     
-    func exampleView() -> RMRPullToRefreshView {
+    func exampleView() -> RMRPullToRefreshView? {
         if exampleType == .PerekrestokTop || exampleType == .PerekrestokBottom {
-            return PerekrestokView.XIB_VIEW()!
+            return PerekrestokView.XIB_VIEW()
         }
-        return BeelineView.XIB_VIEW()!
+        return BeelineView.XIB_VIEW()
     }
     
     func exampleBackgroundColor() -> UIColor {

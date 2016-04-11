@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BeelineView" customModule="RMRPullToRefresh" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BeelineView" customModule="RMRPullToRefreshExample" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -97,11 +97,11 @@
             </variation>
             <connections>
                 <outletCollection property="smallIcons" destination="ocR-SD-NK2" collectionClass="NSMutableArray" id="arI-SS-tcy"/>
-                <outletCollection property="mediumIcons" destination="N95-3w-wkw" id="jTA-MG-5He"/>
-                <outletCollection property="bigIcons" destination="59N-Rz-RXJ" id="rYX-Xg-CcO"/>
-                <outletCollection property="bigIcons" destination="po3-19-Vcz" id="SYT-pK-zEp"/>
-                <outletCollection property="mediumIcons" destination="VPC-oK-CyP" id="E6l-u7-7Fy"/>
-                <outletCollection property="smallIcons" destination="SBR-A4-nT9" id="sML-6l-GUN"/>
+                <outletCollection property="mediumIcons" destination="N95-3w-wkw" collectionClass="NSMutableArray" id="jTA-MG-5He"/>
+                <outletCollection property="bigIcons" destination="59N-Rz-RXJ" collectionClass="NSMutableArray" id="rYX-Xg-CcO"/>
+                <outletCollection property="bigIcons" destination="po3-19-Vcz" collectionClass="NSMutableArray" id="SYT-pK-zEp"/>
+                <outletCollection property="mediumIcons" destination="VPC-oK-CyP" collectionClass="NSMutableArray" id="E6l-u7-7Fy"/>
+                <outletCollection property="smallIcons" destination="SBR-A4-nT9" collectionClass="NSMutableArray" id="sML-6l-GUN"/>
             </connections>
         </view>
     </objects>
